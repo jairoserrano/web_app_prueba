@@ -1,0 +1,26 @@
+@import url("bootstrap-5.3.3-dist/css/bootstrap.min.css");
+
+body {
+    color: #333;
+}
+
+.nav-pills .nav-link.active {
+    background-color: coral;
+}
+
+.nav-link, .fs-6, .card-title {
+    color: coral;
+}
+
+.nav-link:hover {
+    color: coral;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+.bg-body-tertiary {
+    background-color: #d1e7dd !important;
+}
