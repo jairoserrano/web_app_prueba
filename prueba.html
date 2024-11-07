@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="qrcode.js"></script>
 </head>
 
 <body>
@@ -14,6 +15,13 @@
     <p>Esto es una prueba.</p>
     <p>Esto es el segundo párrafo de prueba.</p>
     <input type="button" id="cambiar" value="Pulsame">
+
+    <div id="qrcode"></div>
+
+    <script type="text/javascript">
+    new QRCode(document.getElementById("qrcode"), "http://www.utb.edu.co");
+    </script>
+
     <script src="libreria.js"></script>
 
     <!--
