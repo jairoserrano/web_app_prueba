@@ -24,3 +24,14 @@ body {
 .bg-body-tertiary {
     background-color: #d1e7dd !important;
 }
+
+.carousel-caption {
+    color: #fff;
+    background-color: #333;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+}
