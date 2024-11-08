@@ -8,7 +8,7 @@ body {
     background-color: coral;
 }
 
-.nav-link, .fs-6, .card-title {
+.nav-link, .fs-6, .card-title, h1, h2 {
     color: coral;
 }
 
