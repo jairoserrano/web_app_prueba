@@ -32,13 +32,14 @@
 
             <h1>Contáctenos</h1>
 
-            <p>Complete el siguiente formulario para ponerse en contacto con nuestro equipo.</p>
+            <p id="parrafoCabecera">Complete el siguiente formulario para ponerse en contacto con nuestro equipo.</p>
 
-            <form class="row g-3"> <!--</form> action="/contacto" method="post">-->
+            <form class="row g-3" id="formulario"> <!--</form> action="/contacto" method="post">-->
                 <div class="col-12">
                     <label for="inputName" class="form-label">Nombre completo:</label>
                     <input type="text" class="form-control" id="inputName">
                 </div>
+                <span class="badge bg-danger-subtle border border-danger-subtle text-danger-emphasis rounded-pill" id="mensajeName">Nombre inválido</span>
                 <div class="col-12">
                     <label for="inputEmail" class="form-label">Correo electrónico:</label>
                     <input type="email" class="form-control" id="inputEmail">
@@ -80,9 +81,11 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <button type="button" class="btn btn-primary">Enviar solicitud</button>
+                    <button type="button" id="enviar" class="btn btn-primary mb-4">Enviar solicitud</button>
                 </div>
             </form>
+
+            <span id="mensaje"></span>
 
         </main>
 
